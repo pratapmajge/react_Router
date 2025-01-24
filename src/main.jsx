@@ -9,6 +9,7 @@ import {createBrowserRouter, RouterProvider} from 'react-router-dom'
 import Layout from './Layout'
 import Home from './Components/Home/Home.jsx'
 import About from './Components/About/About.jsx'
+import Contact from './Contacts/Contact.jsx';
 
 
 let router1= createBrowserRouter([
@@ -23,6 +24,10 @@ let router1= createBrowserRouter([
       {
         path:"about",
         element:<About />
+      },
+      {
+        path:"contact",
+        element:<Contact/>
       }
     ]
   }
